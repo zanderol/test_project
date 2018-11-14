@@ -1,0 +1,34 @@
+Test Assignment for Ruby on Rails programmer
+
+Functional requirements
+I'm a person who is passionate about my own productivity. I want to manage my
+tasks and projects more effectively. I need a simple tool that helps me control my
+task-flow.
+You must develop a back-end JSON API application.
+The application should follow this functional specification.
+Also, you can find a UI/UX prototype here.
+
+Technical requirements
+• It should be a back-end JSON API application.
+• API requests and responses should follow the http://jsonapi.org/ conventions.
+• You should use the following tools
+• Ruby on Rails - as a backend framework.
+• Postgresql - as an SQL database.
+• Devise - as an authentication solution.
+• DeviseTokenAuth - as a token-based authentication for Rails JSON APIs
+• Cancancan - as an authorization solution.
+• Carrierwave - files uploading solution.
+• RSpec - as a test automation framework and tools to help you speed
+up the testing process, such as DatabaseCleaner, FactoryGirl, Shoulda
+Matchers, FFaker.
+• You must create a detailed API documentation with Apipie-rails.
+• You must add automation tests for models, controllers, requests. A test
+coverage shouldage should be at least 80-90%.
+
+The result of the completed assignment should be the one that you are ready to show
+for the final code review. Please, do not send us a half-done or incomplete applica-
+tion. The code should be perfect from your own point of view. We will pay attention to
+the quality of the code, auto-tests, and to whether the application is workable.
+The code should be published on GitHub, and the application itself on Heroku (or on
+another server you select).
+We give you one week to complete this test assignment.
