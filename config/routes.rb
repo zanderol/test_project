@@ -1,6 +1,15 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
-  root 'application#hello'
-
+  get 'test_project/home'
+  get 'test_project/help'
+  get 'test_project/about'
+  get 'attachments/index'
+  get 'attachments/new'
+  get 'attachments/create'
+  get 'attachments/destroy'
+  resources :comments
+  resources :users
+  resources :tasks
+  resources :projects
+  resources :attachments, only: [:index, :new, :create, :destroy]
+  root 'projects#index'
 end
