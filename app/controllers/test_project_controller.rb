@@ -1,4 +1,5 @@
 class TestProjectController < ApplicationController
+
   def home
   end
 
@@ -7,4 +8,11 @@ class TestProjectController < ApplicationController
 
   def about
   end
+
+  def contact
+  end
+
+  def projects
+  end
+
 end
